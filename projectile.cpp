@@ -17,7 +17,7 @@ auto verlet_step(TState s, VecR3<double> accel) {
   TState next;
   next.t = s.t + dt;
   next.position = s.position + (s.velocity * dt) + (0.5*accel*pow(dt, 2));
-  next.velocity = s.velocity + (0.5*dt*(accel + (force(next)/m));
+  next.velocity = s.velocity + (0.5*dt*(accel + (force(next)/m)));
   return next;
 }
 
