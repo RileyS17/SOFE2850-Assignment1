@@ -20,7 +20,7 @@ Plot of x, y, z coordinates yielded from from the verlet algorithm:
 
 3. In livecode-projectile.hpp, we defined a type-constructor called VecR2<typename> along with operators for addition and scalar multiplication. Does the VecR2<int> type constitute a vector space? If yes, prove it. If not, explain why not.
   
-    Sicne the type for VecR2 is <int>, it does not constitute a vector space. This is because <int> limits the scope of vector addition and scalar multiplication.
+    Since the type for VecR2 is <int>, it does not constitute a vector space. This is because <int> limits the scope of vector addition and scalar multiplication.
 
 4. Using the type algebra we described in class, describe the type encoded in the following type equation: 𝐿⟨𝑇⟩ = 1 + 𝑇 × 𝐿⟨𝑇⟩
 
