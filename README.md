@@ -9,7 +9,8 @@ The output will be seven columns of numbers with the following order;
 ```
 time [s], x-position [m], y-position [m], z-position [m], x-speed [m/s], y-speed [m/s], z-speed[m/s]
 ```
-Plot of x, y, z coordinates yielded from from the verlet algorithm:
+Plot of x, y, z coordinates:
+
 ![](Assignment1Gnuplot.JPG)
 
 
